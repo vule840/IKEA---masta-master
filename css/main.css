@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+@media screen and (min-width: 1024px) {
+  .navbar-burger {
+    display: block; } }
+
+.navbar {
+  background: none; }
+
+h2 {
+  color: #FFF9C5;
+  font-size: 2rem;
+  font-weight: bold; }
+
+body {
+  font-size: 1.2rem;
+  font-family: 'Noto Sans', sans-serif; }
+
+#home {
+  background: url("/img/bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center; }
+  #home h2 {
+    color: #333333;
+    font-size: 2rem;
+    font-weight: bold; }
+  #home p {
+    color: #333333; }
+
+.zuti_gumb {
+  background: #F9D616;
+  color: #333333;
+  width: 230px; }
+
+.plavi_gumb {
+  background: #0051BA;
+  color: white;
+  width: 230px; }
+
+.footer-container {
+  color: black;
+  padding-top: 3rem;
+  width: 100%; }
+  .footer-container ul a {
+    text-decoration: underline; }
+    .footer-container ul a:hover {
+      font-weight: bold; }
+    .footer-container ul a:active {
+      font-weight: bold; }
+  .footer-container .cookies {
+    background: white; }
+    .footer-container .cookies a {
+      text-decoration: underline; }
+  .footer-container .ikea-logo {
+    position: relative;
+    top: -84px; }
+
+#kakosudjelovati {
+  height: 100vh;
+  background: #37B99B;
+  background-image: url(/img/bg_kakosudjelovati.svg);
+  background-position: center -600px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #kakosudjelovati .kakosudjelovati_content {
+    padding-top: 23rem;
+    color: #FFF9C5; }
+  #kakosudjelovati .veliki_brojevi {
+    font-size: 13rem;
+    color: #FFF9C5; }
+
+.nav_kakosudjelovati {
+  background: RGBA(249, 214, 22, 0.8); }
+
+#good_cause {
+  background: #37B99B;
+  color: #FFF9C5; }
